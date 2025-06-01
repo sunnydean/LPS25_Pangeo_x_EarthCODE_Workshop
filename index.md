@@ -9,4 +9,3 @@ tags: [FAIR, pangeo, earthCODE, LPS25]
 # Welcome to the Pangeo x EarthCODE Workshop!
 
 ![EarthCODE](https://raw.githubusercontent.com/ESA-EarthCODE/documentation/refs/heads/main/pages/public/img/EarthCODE_kv_transparent.png)
-
