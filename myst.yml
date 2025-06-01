@@ -1,0 +1,37 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Welcome
+  description: Pangeo x EarthCODE
+  authors:
+    - name: European Space Agency
+      affiliations:
+        - id: ESA
+          institution: ESA
+          ror: https://ror.org/03wd9za21
+  github: https://github.com/sunnydean/LPS25_Pangeo_x_EarthCODE_Workshop
+  thumbnail: static/PANGEO.png
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  copyright: "2025"
+  toc:
+    # Main navigation
+    - file: index.md
+    - file: pangeo_on_EarthCODE.ipynb
+  subject: earth and related environmental sciences
+  bibliography:
+    - references.bib
+
+site:
+  template: book-theme
+  options:
+    logo: https://raw.githubusercontent.com/ESA-EarthCODE/documentation/refs/heads/main/pages/public/img/EarthCODE_kv_transparent.png
+    logo_text: EarthCODE
+  actions:
+    - title: Learn about EarthCODE
+      url: https://earthcode.esa.int
+    - title: Learn about Pangeo
+      url: https://pangeo.io
+  domains: []
