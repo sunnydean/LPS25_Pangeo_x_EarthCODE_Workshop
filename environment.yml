@@ -1,7 +1,6 @@
 name: pangeo
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - adlfs=2024.12.0
   - adwaita-icon-theme=48.0
