@@ -34,19 +34,11 @@ jobs:
           node-version: 18.x
       - name: Install MyST Markdown
         run: npm install -g mystmd
-      # Install dependencies
-      - name: Set up environment
-        uses: mamba-org/setup-micromamba@v1.9.0
-        with:
-          environment-file: environment.yml
-          environment-name: eopf-zarr
-          init-shell: none
-          generate-run-shell: false
-          condarc: |
-            channels:
-              - conda-forge
-      - name: Execute Jupyter Notebooks and Build HTML Assets
-        run: myst build --html --execute
+      
+      # Build without executing notebooks - no Python environment needed
+      - name: Build HTML Assets (no execution)
+        run: myst build --html
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
