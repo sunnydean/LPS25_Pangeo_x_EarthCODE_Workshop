@@ -1,6 +1,5 @@
 # This file was created automatically with `myst init --gh-pages` 🪄 💚
 # Ensure your GitHub Pages settings for this repository are set to deploy with **GitHub Actions**.
-
 name: MyST GitHub Pages Deploy
 on:
   push:
@@ -10,7 +9,6 @@ env:
   # `BASE_URL` determines the website is served from, including CSS & JS assets
   # You may need to change this to `BASE_URL: ''`
   BASE_URL: /${{ github.event.repository.name }}
-
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
@@ -38,10 +36,12 @@ jobs:
         run: npm install -g mystmd
       # Install dependencies
       - name: Set up environment
-        uses: mamba-org/setup-micromamba@v1
+        uses: mamba-org/setup-micromamba@v1.9.0
         with:
           environment-file: environment.yml
           environment-name: eopf-zarr
+          init-shell: none
+          generate-run-shell: false
           condarc: |
             channels:
               - conda-forge
