@@ -1,3 +1,4 @@
 static/.ipynb_checkpoints
 .virtual_documents
 .ipynb_checkpoints
+_build/
