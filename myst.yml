@@ -19,7 +19,24 @@ project:
   toc:
     # Main navigation
     - file: index.md
-    - file: pangeo_on_EarthCODE.ipynb
+    - file: introduction/introduction.md
+      children:
+        - file: introduction/agenda.md
+        - file: introduction/instructors.md
+        - file: introduction/setup.md
+    - file: earthcode101/earthcode101.md
+      children:
+        - file: earthcode101/about_edc_pangeo.md
+        - file: earthcode101/open_science_catalog.md
+        - file: earthcode101/xcube_viewer.ipynb
+        - file: earthcode101/stac_and_data_access.ipynb
+    - file: pangeo101/pangeo101.md
+      children:
+        - file: pangeo101/xarray101.ipynb
+        - file: pangeo101/cloud-native-formats-101.ipynb
+        - file: pangeo101/dask101.ipynb
+    - file: burnt-area-example/pangeo_on_EarthCODE.ipynb
+    - file: publishing-to-earthcode/publish.md
   subject: earth and related environmental sciences
   bibliography:
     - references.bib
