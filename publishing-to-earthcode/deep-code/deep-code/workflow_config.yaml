@@ -1,0 +1,22 @@
+
+workflow_id: "dnbr_workflow_example"
+properties:
+  title: "DNBR Workflow Example"
+  description: "Demonstrate how to fetch satellite Sentinel-2 data to generate burn severity maps for the assessment of the areas affected by wildfires."
+  keywords:
+    - Earth Science
+  themes:
+      - land
+  license: proprietary
+  jupyter_kernel_info:
+    name: Pange-Test-Notebook
+    python_version: 3.11
+    env_file: "https://github.com/pangeo-data/pangeo-docker-images/blob/master/pangeo-notebook/environment.yml"
+jupyter_notebook_url: "https://github.com/pangeo-data/pangeo-openeo-BiDS-2023/blob/main/tutorial/examples/dask/wildfires_daskgateway.ipynb"
+contact:
+  - name: Dean Summers
+    organization: Lampata
+    links:
+      - rel: "about"
+        type: "text/html"
+        href: "https://www.lampata.eu/"

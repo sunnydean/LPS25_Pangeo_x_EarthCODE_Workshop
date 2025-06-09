@@ -1,0 +1,19 @@
+name: deep-code
+channels:
+  - conda-forge
+dependencies:
+  # Required
+  - python >=3.10
+  - click
+  - fsspec
+  - jsonschema
+  - requests
+  - pandas
+  - pystac
+  - pyyaml
+  - xcube
+  - zarr >=2.11,<3
+  # test dependencies
+  - numpy
+  - pytest
+  - pytest-cov
