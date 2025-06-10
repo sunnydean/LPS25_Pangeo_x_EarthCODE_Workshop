@@ -37,6 +37,8 @@ project:
         - file: pangeo101/dask101.ipynb
     - file: burnt-area-example/pangeo_on_EarthCODE.ipynb
     - file: publishing-to-earthcode/publish.md
+      children:
+        - file: publishing-to-earthcode/deep-code/deep-code/publish-pangeo.ipynb
   subject: earth and related environmental sciences
   bibliography:
     - references.bib

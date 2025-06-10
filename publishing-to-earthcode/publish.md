@@ -1,1 +1,1 @@
-deep-code
+publishing-to-earthcode/deep-code/deep-code/publish-pangeo.ipynb
