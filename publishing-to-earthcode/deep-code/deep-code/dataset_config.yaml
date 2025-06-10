@@ -1,3 +1,4 @@
+
 dataset_id: dnbr_dataset.zarr
 collection_id: pangeo-test
 osc_themes:
@@ -7,4 +8,4 @@ access_link: s3://pangeo-test-fires
 dataset_status: completed
 osc_region: global
 cf_parameter:
-  - name: burned-area
+  - name: burned_area
