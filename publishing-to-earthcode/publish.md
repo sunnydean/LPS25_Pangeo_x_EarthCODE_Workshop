@@ -1,4 +1,6 @@
-# You can Publish to EarthCODE in Many Different Ways!
+# Publish to EarthCODE
+
+## You can Publish to EarthCODE in Many Different Ways!
 
 EarthCODE provides a vibrant ecosystem of tools to publish your work automatically - these tools aim to fit the EO communities' preferred ways of working (code, cli or UI), and data formats and storage options (zarr, local netcdf files, etc..). 
 
