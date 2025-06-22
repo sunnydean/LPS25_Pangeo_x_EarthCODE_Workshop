@@ -1,0 +1,11 @@
+
+dataset_id: dnbr_dataset.zarr
+collection_id: pangeo-test
+osc_themes:
+- 'land'
+documentation_link: https://www.sciencedirect.com/science/article/pii/S1470160X22004708#f0035
+access_link: s3://pangeo-test-fires
+dataset_status: completed
+osc_region: global
+cf_parameter:
+  - name: burned-area

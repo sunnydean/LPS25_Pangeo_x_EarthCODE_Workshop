@@ -52,7 +52,7 @@ def open_dataset(
             "description": "Public store",
             "params": {
                 "storage_type": "s3",
-                "root": root,
+                "root": os.environ.get("S3_USER_STORAGE_BUCKET") or root,
                 "storage_options": {"anon": True},
             },
         },
